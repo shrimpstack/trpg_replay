@@ -61,6 +61,7 @@ function play() {
   set_c_img(data.c_img, data.name);
   set_show_img(data.show_img);
   set_bg(data.bg);
+  Cookie.set('current_page', current.c + "s" + current.i);
   page_c.value = current.c + 1;
   page_i.value = current.i + 1;
 }
