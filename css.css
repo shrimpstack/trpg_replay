@@ -26,11 +26,16 @@ body {
   box-sizing: border-box;
 }
 
+#show_img {
+  filter: drop-shadow(2px 2px 2px #0006);
+}
+
 #char_img {
   position: absolute;
   bottom: 0;
   right: 10px;
   z-index: 1;
+  filter: drop-shadow(2px 2px 2px #0006);
 }
 
 #say {
@@ -40,12 +45,12 @@ body {
   background: linear-gradient(#000d, #000a);
   color: #fff;
   border-radius: 8px;
-  border: 2px solid #fff;
   padding: 10px;
   width: 560px;
   height: 177px;
   line-height: 1.8;
   letter-spacing: 1px;
+  box-shadow: 2px 2px 4px 2px #0006;
 }
 
 #c_name {
